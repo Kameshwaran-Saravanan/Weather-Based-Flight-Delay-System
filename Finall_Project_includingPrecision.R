@@ -202,7 +202,7 @@ ggplot(corr_melt, aes(x = Feature1, y = Feature2, fill = Correlation)) +
     name = "Correlation"
   ) +
   
-  # Clean theme
+ 
   theme_minimal(base_size = 13) +
   theme(
     plot.background = element_rect(fill = "#f5f7fa", color = NA),
@@ -280,7 +280,7 @@ server <- function(input, output){
     
     pred <- predict(xgb_model, xgb.DMatrix(data.matrix(user_data)))
     
-    # ✅ RESTORED ORIGINAL ICONS
+   
     result <- ifelse(pred > 0.5, "Delayed ✈️❌", "On-Time ✈️✅")
     
     output$result <- renderText({
@@ -302,7 +302,7 @@ shinyApp(ui, server)
 library(reshape2)
 library(ggplot2)
 
-# ✅ FIXED MELT (no conflict)
+
 results_long <- reshape2::melt(
   as.data.frame(results),
   id.vars = "Model"
