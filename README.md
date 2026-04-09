@@ -1,6 +1,6 @@
-# ✈️ Flight Delay Prediction System
+#  Flight Delay Prediction System
 
-## 📌 Overview
+##  Overview
 Flight delays are a major issue in the aviation industry, affecting passengers and airline operations.  
 This project uses **machine learning in R** to predict whether a flight will be **Delayed** or **On-Time** using historical flight data.
 
@@ -13,7 +13,7 @@ An interactive **Shiny web application** is also developed for real-time predict
 
 ---
 
-## 🚀 Features
+## Features
 - Data preprocessing and feature engineering  
 - Binary classification (Delayed / On-Time)  
 - Multiple ML models for comparison  
@@ -22,7 +22,7 @@ An interactive **Shiny web application** is also developed for real-time predict
 
 ---
 
-## 📊 Correlation Heatmap
+##  Correlation Heatmap
 The heatmap shows relationships between features.  
 **Departure delay (DepDelay)** has the strongest influence on arrival delay.
 
@@ -32,7 +32,7 @@ The heatmap shows relationships between features.
 
 ---
 
-## 📈 Model Performance Comparison
+##  Model Performance Comparison
 This chart compares all models across evaluation metrics.
 
 - Random Forest → Best overall performance  
@@ -44,9 +44,9 @@ This chart compares all models across evaluation metrics.
 
 ---
 
-## 🖥️ Shiny GUI (Application)
+##  Shiny GUI (Application)
 
-### 🔴 Delayed Flight Prediction
+###  Delayed Flight Prediction
 Example where the model predicts a delay with high probability:
 
 <img width="416" height="257" alt="Screenshot 2026-04-09 at 11 21 29 AM" src="https://github.com/user-attachments/assets/ce5c033f-2d22-4beb-b36f-ecbaee720e82" />
@@ -54,7 +54,7 @@ Example where the model predicts a delay with high probability:
 
 ---
 
-### 🟢 On-Time Flight Prediction
+###  On-Time Flight Prediction
 Example where the model predicts no delay:
 
 <img width="412" height="331" alt="Screenshot 2026-04-09 at 11 21 47 AM" src="https://github.com/user-attachments/assets/5b005e50-22da-478c-9688-26a480553ed7" />
@@ -62,7 +62,7 @@ Example where the model predicts no delay:
 
 ---
 
-## 🧠 Key Insights
+##  Key Insights
 - Departure delay is the strongest predictor  
 - Weather and late aircraft delays significantly impact outcomes  
 - Distance has minimal effect  
