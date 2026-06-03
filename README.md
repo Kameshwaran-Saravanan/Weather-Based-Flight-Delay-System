@@ -11,7 +11,7 @@ We implemented:
 
 An interactive **Shiny web application** is also developed for real-time predictions.
 
----
+
 
 ## Features
 - Data preprocessing and feature engineering  
@@ -20,7 +20,7 @@ An interactive **Shiny web application** is also developed for real-time predict
 - Performance evaluation (Accuracy, Precision, Recall, F1 Score, AUC)  
 - Interactive **Shiny GUI**
 
----
+
 
 ##  Correlation Heatmap
 The heatmap shows relationships between features.  
@@ -30,7 +30,7 @@ The heatmap shows relationships between features.
 
 
 
----
+
 
 ##  Model Performance Comparison
 This chart compares all models across evaluation metrics.
@@ -42,7 +42,7 @@ This chart compares all models across evaluation metrics.
 <img width="410" height="483" alt="Screenshot 2026-04-09 at 11 20 50 AM" src="https://github.com/user-attachments/assets/d27e597a-bc86-4f48-889b-c0708c254c0e" />
 
 
----
+
 
 ##  Shiny GUI (Application)
 
@@ -52,7 +52,7 @@ Example where the model predicts a delay with high probability:
 <img width="416" height="257" alt="Screenshot 2026-04-09 at 11 21 29 AM" src="https://github.com/user-attachments/assets/ce5c033f-2d22-4beb-b36f-ecbaee720e82" />
 
 
----
+
 
 ###  On-Time Flight Prediction
 Example where the model predicts no delay:
@@ -60,7 +60,7 @@ Example where the model predicts no delay:
 <img width="412" height="331" alt="Screenshot 2026-04-09 at 11 21 47 AM" src="https://github.com/user-attachments/assets/5b005e50-22da-478c-9688-26a480553ed7" />
 
 
----
+
 
 ##  Key Insights
 - Departure delay is the strongest predictor  
@@ -68,4 +68,4 @@ Example where the model predicts no delay:
 - Distance has minimal effect  
 - Feature engineering improves model performance  
 
----
+
